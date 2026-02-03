@@ -3,3 +3,8 @@ uvicorn
 python-multipart
 pydantic
 numpy
+torch==2.0.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision==0.15.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+librosa
+soundfile
+matplotlib
